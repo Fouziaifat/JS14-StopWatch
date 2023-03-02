@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 98vw;
+    height: 97vh;
+    background-image: url(sunrise-1014712_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Shantell Sans', cursive;
+
+  }
+
+  .container {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .time {
+    padding: 1rem 0;
+    font-size: 2rem;
+  }
+
+  h1,
+  p {
+    color: #f8f8f8;
+  }
+
+  button {
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 10px;
+    border: 1px solid #f8f8f8;
+  }
+
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f8f8f8;
+  }
